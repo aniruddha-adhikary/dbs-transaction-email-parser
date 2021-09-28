@@ -1,0 +1,24 @@
+{
+  "name": "dbs-transaction-email-parser",
+  "version": "1.0.0",
+  "description": "Parse Transactional Emails from DBS Bank (Singapore)",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniruddha-adhikary/dbs-transaction-email-parser.git"
+  },
+  "author": "Aniruddha Adhikary <aniruddha@adhikary.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aniruddha-adhikary/dbs-transaction-email-parser/issues"
+  },
+  "homepage": "https://github.com/aniruddha-adhikary/dbs-transaction-email-parser#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  }
+}
