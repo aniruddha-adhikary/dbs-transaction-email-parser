@@ -17,6 +17,7 @@ export interface MinimalAccountDescriptor {
 
 export class Transaction {
     readonly type: TransactionType;
+    readonly transactionId: string;
     readonly date: Date;
     readonly from: MinimalAccountDescriptor;
     readonly to: MinimalAccountDescriptor;
@@ -24,11 +25,14 @@ export class Transaction {
 
     constructor(
         type: TransactionType,
-        date: Date, from: MinimalAccountDescriptor,
+        transactionId: string,
+        date: Date,
+        from: MinimalAccountDescriptor,
         to: MinimalAccountDescriptor,
         channel: TransactionChannel | null
     ) {
         this.type = type;
+        this.transactionId = transactionId;
         this.date = date;
         this.from = from;
         this.to = to;
