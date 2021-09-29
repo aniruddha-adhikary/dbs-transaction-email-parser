@@ -1,5 +1,7 @@
 # DBS Transactional Email Parser (Unofficial)
 
+[![Node.js CI](https://github.com/aniruddha-adhikary/dbs-transaction-email-parser/actions/workflows/node.js.yml/badge.svg)](https://github.com/aniruddha-adhikary/dbs-transaction-email-parser/actions/workflows/node.js.yml)
+
 Parses DBS Transactional Emails and extracts Transaction details for calling
 webhooks or doing whatever the heart wants. Originally built  for tracking
 my day-to-day expenses on an external budget tracking app without giving my
